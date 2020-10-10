@@ -4,17 +4,19 @@ export const globalStyles = StyleSheet.create({
   container: {
     padding: 40,
     flex: 1,
-    backgroundColor: '#282828'
+    backgroundColor: '#fff'
   },
   titleText: {
     fontFamily: 'nunito-bold',
     fontSize: 18,
-    color: '#fff'
+    color: '#282828',
+    textAlign: "center"
   },
   paragraphText: {
     fontFamily: 'nunito-regular',
-    color: '#fff',
+    color: '#282828',
     marginVertical: 8,
-    lineHeight: 20
+    lineHeight: 20,
+    textAlign: 'center'
   }
 })
