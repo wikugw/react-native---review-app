@@ -32,6 +32,18 @@ export const globalStyles = StyleSheet.create({
     color: "crimson",
     textAlign: 'center',
     fontWeight: 'bold'
+  },
+  button: {
+    backgroundColor: '#66b933',
+    borderRadius: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 10
+  },
+  textButton: {
+    textAlign: 'center',
+    textTransform: 'uppercase',
+    fontSize: 16,
+    color: '#fff'
   }
 })
 
